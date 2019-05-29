@@ -1,0 +1,24 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "npx styleguidist server --config styleguide.config.js --open",
+    "build": "npx styleguidist build"
+  },
+  "dependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.5",
+    "next": "8.0.0",
+    "prop-types": "15.6.2",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "react-styleguidist": "8.0.6",
+    "styled-components": "4.1.2",
+    "webpack": "4.28.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
