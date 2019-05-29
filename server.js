@@ -14,11 +14,6 @@ const customHandler = (req, res) => {
   await app.prepare()
   const server = express()
 
-
-  server.get('/build/:id', (req, res) => {
-    const file = path.join(__dirname, `/docs/styleguide/build/${req.params.id}`)
-    res.status(200).sendFile(file)
-  })
   server.get('*', (req, res) => {
     return customHandler(req, res)
   })
