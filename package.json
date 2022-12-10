@@ -8,7 +8,7 @@
     "build:all": "npm run build && npm run build --prefix docs/"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "next": "8.0.3",
     "react": "16.8.4",
     "react-dom": "16.8.4"
